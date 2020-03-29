@@ -1,7 +1,6 @@
 package easy;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import Utils.TreeNode;
 
 // https://leetcode.com/problems/diameter-of-binary-tree/
 public class DiameterOfBinaryTree {

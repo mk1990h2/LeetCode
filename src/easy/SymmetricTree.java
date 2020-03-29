@@ -1,5 +1,7 @@
 package easy;
 
+import Utils.TreeNode;
+
 // https://leetcode.com/problems/symmetric-tree/
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
