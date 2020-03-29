@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 // https://leetcode.com/problems/majority-element/
 public class MajorityElement {
+    // TODO: couldn't find efficient solution
     // Boyer-Moore Majority Vote Algorithm
     public int majorityElement(int[] nums) {
         int candidate = nums[0], count = 1;

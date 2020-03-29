@@ -2,12 +2,9 @@ package easy;
 
 //    https://leetcode.com/problems/climbing-stairs/
 public class ClimbStairs {
-    public static void main(String[] args) {
-        System.out.println(climbStairs(4));
-        System.out.println(climbStairs(6));
-    }
 
-    public static int climbStairs(int n) {
+    // TODO: couldn't solve by myself
+    public int climbStairs(int n) {
         if (n == 1) return 1;
         if (n == 2) return 2;
 

@@ -2,6 +2,7 @@ package easy;
 
 // https://leetcode.com/problems/move-zeroes/
 public class MoveZeroes {
+    // TODO: couldn't find efficient solution
     // O(n)
     public void moveZeroes(int[] nums) {
         int position = 0;

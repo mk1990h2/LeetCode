@@ -2,14 +2,7 @@ package easy;
 
 // https://leetcode.com/problems/maximum-subarray/
 public class MaximumSubarray {
-    public static void main(String[] args) {
-        int[] input = new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4};
-
-//        System.out.println(maxSubArray(input));
-        System.out.println(maxSubArray_dc(input));
-    }
-
-    public static int maxSubArray(int[] nums) {
+    public int maxSubArray(int[] nums) {
         int[] arr = nums;
         int max = nums[0];
         for (int i = 1; i < nums.length; i++) {
@@ -24,7 +17,7 @@ public class MaximumSubarray {
         return max;
     }
 
-    public static int maxSubArray_dc(int[] nums) {
+    public int maxSubArray_dc(int[] nums) {
     /*
     Divide-and-conquer method.
     The maximum summation of subarray can only exists under following conditions:

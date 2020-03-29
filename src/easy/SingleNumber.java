@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class SingleNumber {
+    // TODO: couldn't solve by myself
     public int singleNumber(int[] nums) {
         int ans =0;
 
@@ -13,6 +14,7 @@ public class SingleNumber {
         return ans;
     }
 
+    // my solution
 //    public int singleNumber(int[] nums) {
 //        HashMap<Integer, Integer> hm = new HashMap<>();
 //        for (int num : nums) {
