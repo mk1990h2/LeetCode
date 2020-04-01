@@ -30,4 +30,18 @@ public class Util {
 
         return root;
     }
+
+    public static ListNode convertArrayToListNode(int[] array) {
+        ListNode head = new ListNode(array[0]);
+        ListNode newHead = head;
+
+        for (int i = 1; i < array.length; i++) {
+            ListNode next = new ListNode(array[i]);
+            newHead.next = next;
+            newHead = next;
+
+
+        }
+        return head;
+    }
 }

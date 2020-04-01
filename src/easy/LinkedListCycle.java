@@ -1,6 +1,6 @@
 package easy;
 
-import java.util.HashSet;
+import Utils.ListNode;
 
 // https://leetcode.com/problems/linked-list-cycle/
 public class LinkedListCycle {
@@ -15,7 +15,7 @@ public class LinkedListCycle {
         }
         return false;
     }
-    
+
     // my solution
 //    public boolean hasCycle(ListNode head) {
 //        HashSet<ListNode> hs = new HashSet<>();

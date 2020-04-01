@@ -1,6 +1,6 @@
 package easy;
 
-import java.util.HashSet;
+import Utils.ListNode;
 
 // https://leetcode.com/problems/intersection-of-two-linked-lists
 public class IntersectionOfTwoLinkedLists {

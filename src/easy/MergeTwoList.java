@@ -1,5 +1,7 @@
 package easy;
 
+import Utils.ListNode;
+
 // https://leetcode.com/problems/merge-two-sorted-lists/
 public class MergeTwoList {
     public static void main(String[] args) {
@@ -21,10 +23,10 @@ public class MergeTwoList {
 
     /**
      * Definition for singly-linked list.
-     * public class easy.ListNode {
+     * public class Utils.ListNode {
      * int val;
-     * easy.ListNode next;
-     * easy.ListNode(int x) { val = x; }
+     * Utils.ListNode next;
+     * Utils.ListNode(int x) { val = x; }
      * }
      */
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -48,8 +50,8 @@ public class MergeTwoList {
 //        if (l2 == null) {
 //            return l1;
 //        }
-//        easy.ListNode result = new easy.ListNode(0);
-//        easy.ListNode prev = result;
+//        Utils.ListNode result = new Utils.ListNode(0);
+//        Utils.ListNode prev = result;
 //        while (l1 != null && l2 != null) {
 //            if (l1.val <= l2.val) {
 //                prev.next = l1;
