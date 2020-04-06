@@ -1,5 +1,6 @@
-package medium;
+package medium.DP;
 
+// https://leetcode.com/problems/counting-bits/
 public class CountingBits {
     public int[] countBits(int num) {
         if (num == 0) return new int[]{0};
